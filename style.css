@@ -1,0 +1,111 @@
+/* Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color and font properties */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #17153B;
+    color: #C8ACD6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #C8ACD6;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #2E236C;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form and list styling */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-field ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #433D8B;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.display-field li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #2E236C;
+    border-radius: 5px;
+    text-align: center;
+    color: #C8ACD6;
+}
+
+/* Add item area styling */
+.add-item-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-item-area label {
+    margin-bottom: 10px;
+}
+
+.add-item-area input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #17153B;
+    color: #C8ACD6;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.add-item-area button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #433D8B;
+    color: #C8ACD6;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-item-area button:hover {
+    background-color: #2E236C;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .add-item-area input, .add-item-area button {
+        font-size: 0.9rem;
+    }
+}
