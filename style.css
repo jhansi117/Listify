@@ -7,7 +7,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, button {
 
 /* Set the background color and font properties */
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: sans-serif;
     background-color: #17153B;
     color: #C8ACD6;
     display: flex;
